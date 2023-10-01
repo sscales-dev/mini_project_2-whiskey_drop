@@ -153,6 +153,7 @@ body {
 }
 
 .dropdown-menu {
+    border-radius: 0.3rem;
     background-color: #59331D;
 }
 .dropdown-menu a {
@@ -189,6 +190,11 @@ body {
     color: #a7a7a7;
 }
 
+.jumbotron .lead strong {
+    font-weight: bold;
+    color: #160A00;
+}
+
 .jumbotron small {
     font-size: 60%;
     font-style: italic;
@@ -196,7 +202,7 @@ body {
 }
 
 .jumbotron mark {
-    background-color: rgba(217, 212, 186, 0.6);
+    background-color: rgba(217, 212, 186, 0.5);
     border: 2px rgba(217, 212, 186, 0.2) outset;
     border-radius: 3px;
     margin: 0 .5rem auto .5rem;
@@ -362,7 +368,7 @@ input.form-control:focus {
         background-color: transparent;
     }
     .dropdown-menu.show {
-        background-color: rgba(140, 91, 63, 0.15);
+        background-color:  rgba(26,16,8,0.7); /*rgba(140, 91, 63, 0.3);*/
     }
 
     /* Navbar Signup */
